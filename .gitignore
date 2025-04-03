@@ -2,9 +2,11 @@
 __pycache__/
 *.py[cod]
 *$py.class
-
+.env
 # C extensions
 *.so
+# exclude poc/__pycache__
+poc/__pycache__/
 
 # Distribution / packaging
 .Python
